@@ -8,14 +8,15 @@ export default function WorkExperience({}: Props) {
     return (
         <motion.div 
         initial={{
+            y:-100,
             opacity:0
-        }}
-        transition={{
-            duration:1.2
-        }}
-        whileInView={{
-            opacity:1
-        }}
+          }}
+      transition={{
+          duration:1.2
+      }}
+      whileInView={{
+          opacity:1,y:0
+      }}
         className=' flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
             
             <h3
