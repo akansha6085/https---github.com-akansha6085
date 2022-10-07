@@ -82,8 +82,10 @@ className="cursor-pointer"
         bgColor='transparent' />
 </Link>
       
-
-        <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Get in Touch</p>
+<Link href="#contactme">
+<p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Get in Touch</p>
+</Link>
+        
 
         <Link href="#hero">
         <HomeIcon 
