@@ -1,6 +1,10 @@
 import React from 'react'
 import { SocialIcon } from 'react-social-icons';
 import { motion } from "framer-motion"
+import Link from 'next/link'
+import { HomeIcon } from '@heroicons/react/24/solid'
+
+
 
 type Props = {}
 
@@ -70,12 +74,26 @@ initial={{
    duration:1.5,
   }}
 className='flex flex-row items-center text-gray-300 cursor-pointer'>
-<SocialIcon 
+        <Link href="#contactme">
+        <SocialIcon 
 className="cursor-pointer"
         network="email" 
-        fgColor='grey' 
+        fgColor='gray' 
         bgColor='transparent' />
+</Link>
+      
+
         <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Get in Touch</p>
+
+        <Link href="#hero">
+        <HomeIcon 
+        className="cursor-pointer
+        fgColor='gray' 
+        bgColor='transparent'
+        ml-5
+        h-5 w-5 animate-pulse"/>
+        </Link>
+
 </motion.div>
 </header>
 
