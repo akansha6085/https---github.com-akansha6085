@@ -37,7 +37,7 @@ whileInView={{
               opacity:1,y:0
           }}
           viewport={{once:true}}
-              className="xl:h-45 xl:w-45"
+              className="xl:h-45 xl:w-45 mt-20"
               src="https://i.ytimg.com/vi/KVIqrUz76jw/hqdefault.jpg" alt=""/>
             <div className="space-y-10 px-0 md:px-10 max-width-6xl">
             <h4 className="text-2xl font-semibold text-center"> 
